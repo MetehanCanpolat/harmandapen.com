@@ -1,0 +1,63 @@
+body, html{
+    height: 100%;
+  margin: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
+    justify-content: space-between;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+.logo{
+    display: flex;
+    width: 15em;
+    margin-left: 3em;
+    object-fit: contain;
+}
+a{
+  justify-content: end;
+  text-decoration-line: none;
+  text-shadow: none;
+  letter-spacing: 0rem;
+  margin: 1rem;
+}
+a:visited{
+  color: aliceblue;
+}
+.button{
+  color:aliceblue;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+  
+    height: 70%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img1 { background-image: url("1.jpg"); }
+  .img2 { background-image: url("2.jpg"); }
+  .img3 { background-image: url("3.jpg"); }
+  .img4 { background-image: url("4.jpg"); }
+  .img5 { background-image: url("5.jpg"); }
+  
+
+
+  
