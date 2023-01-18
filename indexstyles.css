@@ -148,6 +148,30 @@ span{
   .sidenav a {font-size: 18px;}
 }
   
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li{
+  margin: 1rem;
+  list-style: none;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  color: aliceblue;
+  background-color: #111;
+}
+.footer-logo{
+
+  height: 10rem;
+  object-fit: contain;
+}
 
 
-  
