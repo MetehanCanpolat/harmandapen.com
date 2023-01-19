@@ -84,7 +84,7 @@ h2{
   .bg-image {
   
     height: 70%;
-
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
