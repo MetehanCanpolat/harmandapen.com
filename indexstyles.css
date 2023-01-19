@@ -47,6 +47,7 @@ a {
 .contacts a:visited{
   color: #111;
 }
+
 .logo{
     display: flex;
     width: 19em;
@@ -54,13 +55,15 @@ a {
     object-fit: contain;
 }
 #top-logo{
-  width: 27rem;
+  width: 23rem;
   object-fit: contain;
 }
 #calling{
   width: 8rem;
+  display: flex;
   object-fit: contain;
   border-radius: 8rem;
+
 }
 * {
     box-sizing: border-box;
@@ -91,7 +94,7 @@ h2{
     flex-direction: column;
   }
 
-  .img1 { background-image: url("1.jpg"); }
+  .img1 { background-image: url("1.png"); }
   .img2 { background-image: url("2.jpg"); }
   .img3 { background-image: url("3.jpg"); }
   .img4 { background-image: url("4.jpg"); }
@@ -118,7 +121,7 @@ span{
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2.15rem;
   color: #818181;
   display: block;
   transition: 0.3s;
