@@ -81,6 +81,10 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
     width: 30rem;
 }
+.list-cont{
+  margin-top: 6rem;
+  width: 71%;
+}
   .bg-image {
   
     height: 70%;
